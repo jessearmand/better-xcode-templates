@@ -1,4 +1,4 @@
-    //
+//
 //  «FILENAME»
 //  «PROJECTNAME»
 //
@@ -16,8 +16,8 @@
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)init {
-    self = [super init];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
     }
@@ -28,8 +28,12 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-- (void)loadView {
-		[super loadView];
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 
@@ -61,7 +65,7 @@
 }
 */
 
-#pragma mark
+#pragma mark -
 #pragma mark Memory management
 
 - (void)didReceiveMemoryWarning {
