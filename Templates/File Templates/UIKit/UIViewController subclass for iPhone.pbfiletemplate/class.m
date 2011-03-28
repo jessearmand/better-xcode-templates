@@ -29,7 +29,7 @@
 #pragma mark View lifecycle
 
 - (void)loadView {
-		[super loadView];
+    
 }
 
 

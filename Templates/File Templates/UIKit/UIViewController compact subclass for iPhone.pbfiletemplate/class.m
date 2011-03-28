@@ -29,7 +29,6 @@
 
 - (void)loadView 
 {
-	[super loadView];
 }
 
 - (void)viewWillAppear:(BOOL)animated 
