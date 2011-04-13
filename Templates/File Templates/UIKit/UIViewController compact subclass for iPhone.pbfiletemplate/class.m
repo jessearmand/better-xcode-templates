@@ -13,7 +13,6 @@
 #pragma mark -
 #pragma mark Initialization
 
-/*
 - (id)init 
 {
 	self = [super init];
@@ -22,7 +21,24 @@
 	}
 	return self;
 }
-*/
+
+#pragma mark
+#pragma mark Memory management
+
+- (void)didReceiveMemoryWarning 
+{
+	[super didReceiveMemoryWarning];
+}
+
+- (void)viewDidUnload 
+{
+	[super viewDidUnload];
+}
+
+- (void)dealloc 
+{
+	[super dealloc];
+}
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -60,23 +76,5 @@
 	return YES;
 }
 */
-
-#pragma mark
-#pragma mark Memory management
-
-- (void)didReceiveMemoryWarning 
-{
-	[super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload 
-{
-	[super viewDidUnload];
-}
-
-- (void)dealloc 
-{
-	[super dealloc];
-}
 
 @end

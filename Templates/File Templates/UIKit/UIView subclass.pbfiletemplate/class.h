@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface «FILEBASENAMEASIDENTIFIER» : UIView {
+@interface «FILEBASENAMEASIDENTIFIER» : UIView 
+{
 
 }
 

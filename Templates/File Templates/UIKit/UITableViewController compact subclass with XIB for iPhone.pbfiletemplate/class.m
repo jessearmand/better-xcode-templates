@@ -13,7 +13,6 @@
 #pragma mark -
 #pragma mark Initialization
 
-/*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil 
 {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,7 +21,24 @@
 	}
 	return self;
 }
-*/
+
+#pragma mark -
+#pragma mark Memory management
+
+- (void)didReceiveMemoryWarning 
+{
+	[super didReceiveMemoryWarning];
+}
+
+- (void)viewDidUnload 
+{
+	[super viewDidUnload];	
+}
+
+- (void)dealloc 
+{
+	[super dealloc];
+}
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -126,24 +142,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
 	[tableView deselectRowAtIndexPath:<#(NSIndexPath *)indexPath#> animated:<#(BOOL)animated#>];
-}
-
-#pragma mark -
-#pragma mark Memory management
-
-- (void)didReceiveMemoryWarning 
-{
-	[super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload 
-{
-	[super viewDidUnload];	
-}
-
-- (void)dealloc 
-{
-	[super dealloc];
 }
 
 @end

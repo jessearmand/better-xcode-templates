@@ -12,28 +12,26 @@
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier 
 {
-	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-	if (self) 
-	{
-	}
-	return self;
-}
-
-/*
-- (void)layoutSubviews 
-{
-	[super layoutSubviews];
-}
-*/
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated 
-{
-	[super setSelected:selected animated:animated];
+  self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+  if (self) 
+  {
+  }
+  return self;
 }
 
 - (void)dealloc 
 {
-	[super dealloc];
+  [super dealloc];
+}
+
+- (void)layoutSubviews 
+{
+  [super layoutSubviews];
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated 
+{
+  [super setSelected:selected animated:animated];
 }
 
 @end

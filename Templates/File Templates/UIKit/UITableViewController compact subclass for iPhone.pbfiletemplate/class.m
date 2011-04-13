@@ -13,7 +13,6 @@
 #pragma mark -
 #pragma mark Initialization
 
-/*
 - (id)initWithStyle:(UITableViewStyle)style 
 {
 	self = [super initWithStyle:style];
@@ -22,7 +21,24 @@
 	}
 	return self;
 }
-*/
+
+#pragma mark -
+#pragma mark Memory management
+
+- (void)didReceiveMemoryWarning 
+{
+	[super didReceiveMemoryWarning];
+}
+
+- (void)viewDidUnload 
+{
+	[super viewDidUnload];
+}
+
+- (void)dealloc 
+{
+	[super dealloc];
+}
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -125,24 +141,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
 	[tableView deselectRowAtIndexPath:<#(NSIndexPath *)indexPath#> animated:<#(BOOL)animated#>];
-}
-
-#pragma mark -
-#pragma mark Memory management
-
-- (void)didReceiveMemoryWarning 
-{
-	[super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload 
-{
-	[super viewDidUnload];
-}
-
-- (void)dealloc 
-{
-	[super dealloc];
 }
 
 @end

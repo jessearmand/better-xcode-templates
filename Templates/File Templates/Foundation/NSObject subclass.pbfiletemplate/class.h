@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-@interface «FILEBASENAMEASIDENTIFIER» : NSObject {
+@interface «FILEBASENAMEASIDENTIFIER» : NSObject 
+{
     //STUB add your instance variables here
 }
 

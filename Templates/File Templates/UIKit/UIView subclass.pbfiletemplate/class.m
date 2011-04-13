@@ -11,32 +11,36 @@
 @implementation «FILEBASENAMEASIDENTIFIER»
 
 
-- (id)initWithFrame:(CGRect)frame {
-	self = [super initWithFrame:frame];	
-    if (self) {
+- (id)initWithFrame:(CGRect)frame 
+{
+    self = [super initWithFrame:frame];	
+    if (self) 
+    {
         // Initialization code
     }
     return self;
 }
 
+- (void)dealloc 
+{
+    [super dealloc];
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
+- (void)drawRect:(CGRect)rect 
+{
     // Drawing code
 }
 */
 
 /*
-- (void)layoutSubviews {
+- (void)layoutSubviews 
+{
     [super layoutSubviews];
-	// Lays out subviews
+    // Lays out subviews
 }
 */
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end

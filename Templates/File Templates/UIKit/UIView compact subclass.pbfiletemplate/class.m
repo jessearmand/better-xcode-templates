@@ -19,6 +19,11 @@
 	return self;
 }
 
+- (void)dealloc 
+{
+	[super dealloc];
+}
+
 /*
 - (void)drawRect:(CGRect)rect 
 {
@@ -31,10 +36,5 @@
 	[super layoutSubviews];
 }
 */
-
-- (void)dealloc 
-{
-	[super dealloc];
-}
 
 @end

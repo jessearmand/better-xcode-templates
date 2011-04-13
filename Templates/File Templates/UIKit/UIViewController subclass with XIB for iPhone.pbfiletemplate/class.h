@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface «FILEBASENAMEASIDENTIFIER» : UIViewController {
+@interface «FILEBASENAMEASIDENTIFIER» : UIViewController 
+{
 
 }
 

@@ -10,17 +10,19 @@
 
 @implementation «FILEBASENAMEASIDENTIFIER»
 
-- (id)init {
+- (id)init 
+{
   	self = [super init];
-    if (self) {
+    if (self) 
+    {
         //STUB initialize your object here
     }
     return self;
 }
 
-- (void)dealloc {
+- (void)dealloc 
+{
     //STUB release your objects here
-    
     [super dealloc];
 }
 
